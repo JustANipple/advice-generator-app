@@ -1,0 +1,8 @@
+@use "../variables" as v;
+
+.advice_title {
+    color: v.$neon-green;
+    text-transform: uppercase;
+    font-size: calc(v.$fs - 1.125rem);
+    letter-spacing: .25rem;
+}

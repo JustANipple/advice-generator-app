@@ -1,0 +1,17 @@
+@use "variables" as v;
+
+body {
+    display: grid;
+    place-content: center;
+    background-color: v.$dark-blue;
+    font-family: v.$ff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: 1rem;
+    padding-inline: 1.5rem;
+    background-color: v.$dark-grayish-blue;
+}

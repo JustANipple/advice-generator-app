@@ -1,0 +1,59 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* Colors */
+/* Font */
+/* Media query */
+body {
+  display: grid;
+  place-content: center;
+  background-color: hsl(218, 23%, 16%);
+  font-family: "Manrope", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-inline: 1rem;
+  padding-inline: 1.5rem;
+  background-color: hsl(217, 19%, 24%);
+}
+
+.advice_title {
+  color: hsl(150, 100%, 66%);
+  text-transform: uppercase;
+  font-size: 0.625rem;
+  letter-spacing: 0.25rem;
+}/*# sourceMappingURL=main.css.map */
