@@ -7,6 +7,15 @@ body {
     font-family: v.$ff;
 }
 
+.sr-only {
+    position: absolute;
+    color: transparent;
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+
 .container {
     display: flex;
     flex-direction: column;
