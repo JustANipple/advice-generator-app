@@ -115,6 +115,7 @@ body {
 }
 .advice_randomizer:hover {
   box-shadow: 0 0 3.5rem -0.5rem hsl(150, 100%, 66%);
+  cursor: pointer;
 }
 .advice_randomizer img {
   transition: inherit;
