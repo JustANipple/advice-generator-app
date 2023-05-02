@@ -5,4 +5,41 @@
     text-transform: uppercase;
     font-size: calc(v.$fs - 1.125rem);
     letter-spacing: .25rem;
+
+    @media screen and (min-width: v.$min-width) {
+        font-size: calc(v.$fs - 1rem);
+    }
+}
+
+.advice_text {
+    color: v.$light-cyan;
+    font-size: calc(v.$fs / 1.25);
+    text-align: center;
+    padding-block: 1.75rem;
+    line-height: 1.375;
+
+    @media screen and (min-width: v.$min-width) {
+        font-size: v.$fs;
+        padding-block-start: 1.5rem;
+        padding-block-end: 2rem;
+    }
+}
+
+.advice_divider {
+    @media screen and (min-width: v.$min-width) {
+        padding-block: .5rem;
+    }
+}
+
+.advice_randomizer {
+    padding: 1.25rem;
+    border-radius: 100vw;
+    border: none;
+    background-color: v.$neon-green;
+    position: relative;
+    top: 2rem;
+
+    &:hover {
+        box-shadow: 0 0 3.5rem -.5rem v.$neon-green;
+    }
 }

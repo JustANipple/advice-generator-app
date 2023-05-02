@@ -46,9 +46,20 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 0.5rem;
   margin-inline: 1rem;
+  padding-block-start: 2.75rem;
   padding-inline: 1.5rem;
   background-color: hsl(217, 19%, 24%);
+  box-shadow: 0 1rem 5rem -4rem black;
+  max-width: 33.75rem;
+}
+@media screen and (min-width: 48rem) {
+  .container {
+    border-radius: 1rem;
+    padding: 3rem 3rem 0 3rem;
+    margin-inline: unset;
+  }
 }
 
 .advice_title {
@@ -56,4 +67,42 @@ body {
   text-transform: uppercase;
   font-size: 0.625rem;
   letter-spacing: 0.25rem;
+}
+@media screen and (min-width: 48rem) {
+  .advice_title {
+    font-size: 0.75rem;
+  }
+}
+
+.advice_text {
+  color: hsl(193, 38%, 86%);
+  font-size: 1.4rem;
+  text-align: center;
+  padding-block: 1.75rem;
+  line-height: 1.375;
+}
+@media screen and (min-width: 48rem) {
+  .advice_text {
+    font-size: 1.75rem;
+    padding-block-start: 1.5rem;
+    padding-block-end: 2rem;
+  }
+}
+
+@media screen and (min-width: 48rem) {
+  .advice_divider {
+    padding-block: 0.5rem;
+  }
+}
+
+.advice_randomizer {
+  padding: 1.25rem;
+  border-radius: 100vw;
+  border: none;
+  background-color: hsl(150, 100%, 66%);
+  position: relative;
+  top: 2rem;
+}
+.advice_randomizer:hover {
+  box-shadow: 0 0 3.5rem -0.5rem hsl(150, 100%, 66%);
 }/*# sourceMappingURL=main.css.map */
